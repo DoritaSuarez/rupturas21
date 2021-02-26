@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react"
+import {CssBaseline, makeStyles} from '@material-ui/core'
+import {BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
+import InformalityPage from './pages/informality'
+import NotFound from './pages/404'
+import Landing from './pages/landing'
+import About from './pages/about'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default function App(){
+  return(
+    <Router>
+      <Switch>
+        <Route exact path = "/" component = {Landing}/>
+        <Route exact path = "/informality-covid19" component = {InformalityPage}/>
+        <Route exact path = "/about" component = {About}/>
+        <Route exact path = "/404" component = {NotFound}/>
+        <Redirect to="/404"/>
+      </Switch>
+    </Router>
+  )
 }
-
-export default App;
