@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rupturas21/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/rupturas21/static/js/main.07d3c4f0.chunk.js",
-    "main.js.map": "/rupturas21/static/js/main.07d3c4f0.chunk.js.map",
+    "main.js": "/rupturas21/static/js/main.6f4be9b5.chunk.js",
+    "main.js.map": "/rupturas21/static/js/main.6f4be9b5.chunk.js.map",
     "runtime-main.js": "/rupturas21/static/js/runtime-main.41113665.js",
     "runtime-main.js.map": "/rupturas21/static/js/runtime-main.41113665.js.map",
     "static/css/2.631cbb15.chunk.css": "/rupturas21/static/css/2.631cbb15.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.631cbb15.chunk.css",
     "static/js/2.23e46c21.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.07d3c4f0.chunk.js"
+    "static/js/main.6f4be9b5.chunk.js"
   ]
 }
